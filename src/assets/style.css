@@ -1,0 +1,41 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(236, 111, 27);
+ }
+ h2{
+
+    padding-bottom: 30px;
+    color: rgb(236, 170, 27);
+    font-size: 20px;
+    
+ }
+ 
+ .col-md-1 button{
+ 
+    width: 100%;
+    
+ }
+
+ .d-grid{
+    padding-top: 30px;
+    
+ }
+
+ .d-grid button{
+    background-color: rgb(236, 111, 27);
+    border-color: rgb(236, 111, 27);
+    border-radius: 12px;
+    font-size: 20px;
+    
+ }
+ .row select{
+    width: 50%;
+   /* text-align: ; */
+ }

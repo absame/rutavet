@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 1,
+        "name" : "Pancho",
+        "owner" : "Francisco Garcia",
+        "phone" : "+52 123456789",
+        "address" : "Av. xxxxxx 10 Mty"
+    },
+    {
+        "id" : 2,
+        "name" : "Pepe",
+        "owner" : "Jose Garcia",
+        "phone" : "+52 123456789",
+        "address" : "Av. xxxxxx 10 Mty"
+    },
+    {
+        "id" : 3,
+        "name" : "Koro",
+        "owner" : "Zulema Coronel",
+        "phone" : "+52 123456789",
+        "address" : "Av. xxxxxx 10 Mty"
+    },
+    {
+        "id" : 4,
+        "name" : "Misifú",
+        "owner" : "Zulema Coronel",
+        "phone" : "+52 123456789",
+        "address" : "Av. xxxxxx 10 Mty"
+    }
+]
