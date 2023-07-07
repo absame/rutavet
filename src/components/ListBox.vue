@@ -12,10 +12,6 @@ defineProps({
     required: true
   }
 })
-
-function selectElement(){
- return item;
-}
 </script>
 
 <template>

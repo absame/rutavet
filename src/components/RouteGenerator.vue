@@ -1,16 +1,22 @@
 
 <script setup> 
-import ListBox from './ListBox.vue';
-
-defineProps({
+import { ref, reactive } from 'vue'
+import ListBox from './ListBox.vue'; 
+let elementToSend = ref(0)
+const clientsOnRoute = reactive([])
+const props = defineProps({
   clients: {
     type: Array,
     required: true
   }
 })
 
-function addElement(){
-    console.log(item)
+function addElement(){ 
+    clientsOnRoute.push(props.clients[elementToSend])
+}
+
+function changeElement(e){
+    elementToSend = e.target.value - 1
 }
 
 </script>
@@ -19,14 +25,14 @@ function addElement(){
         <h3 class="text-center mb-5">Route Generator</h3>
     <div class="row">
             <div class="col-md-5">
-                <ListBox title="Clientes disponibles" :list="clients"></ListBox>
+                <ListBox title="Clientes disponibles" :list="clients" @change="changeElement"></ListBox>
             </div>
             <div class="col-md-2">
-                <button v-on:click="addElement"> + </button>
+                <button @click="addElement"> + </button>
                 <button> - </button>
             </div>
             <div class="col-md-5">
-                <ListBox title="Clientes en Ruta" :list="[]"></ListBox>
+                <ListBox title="Clientes en Ruta" :list="clientsOnRoute"></ListBox>
 
             </div>
     </div>
