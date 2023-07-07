@@ -3,28 +3,166 @@
         "id" : 1,
         "name" : "Pancho",
         "owner" : "Francisco Garcia",
-        "phone" : "+52 123456789",
-        "address" : "Av. xxxxxx 10 Mty"
+        "phone" : "8128550474",
+        "address" : "Portal de Zaragoza 407, Portal de Huinala, 66646 Cd Apodaca, N.L.",
+        "coordinates" : "25.7541603, -100.1582333"
+
     },
     {
         "id" : 2,
         "name" : "Pepe",
         "owner" : "Jose Garcia",
-        "phone" : "+52 123456789",
-        "address" : "Av. xxxxxx 10 Mty"
+        "phone" : "8122007510",
+        "address" : "Talavera 129, Valle La Rioja, 66607 N.L.",
+        "coordinates" : "25.8182745, -100.2133335"
     },
     {
         "id" : 3,
         "name" : "Koro",
         "owner" : "Zulema Coronel",
-        "phone" : "+52 123456789",
-        "address" : "Av. xxxxxx 10 Mty"
+        "phone" : "8185410470",
+        "address" : "Tejera 115, Valle La Rioja, 66607 N.L.",
+        "coordinates" : "25.818687, -100.213983"
     },
     {
         "id" : 4,
         "name" : "Misifú",
         "owner" : "Zulema Coronel",
-        "phone" : "+52 123456789",
-        "address" : "Av. xxxxxx 10 Mty"
+        "phone" : "8112709978",
+        "address" : "Río Yaqui 131, Pueblo Nuevo III, 66603 Cd Apodaca, N.L.",
+        "coordinates" : "25.7614878, -100.1637318"
+    },
+    {
+        "id" : 5,
+        "name" : "Luna",
+        "owner" : "Pedro Contreras",
+        "phone" : "8114007847",
+        "address" : "Misión Sta Rosa 110, 66612 Cd Apodaca, N.L.",
+        "coordinates" : "25.7857119, -100.2354603"
+    },
+    {
+        "id" : 6,
+        "name" : "Max",
+        "owner" : "Alejandro Ulloa",
+        "phone" : "8123900120",
+        "address" : "Portal de Sevilla 526, Portal de Huinala, 66646 Cd Apodaca, N.L.",
+        "coordinates" : "25.7555354, -100.1572049"
+    },
+    {
+        "id" : 7,
+        "name" : "Thor",
+        "owner" : "Juan Gonzalez",
+        "phone" : "8119800254",
+        "address" : "Privada Santa Martha, C. Reforma, Casa Reales de Apodaca, 66604 Cd Apodaca, N.L.",
+        "coordinates" : "25.7616882, -100.1987951"
+    },
+    {
+        "id" : 8,
+        "name" : "Sultan",
+        "owner" : "Mauricio Perez",
+        "phone" : "8180446565",
+        "address" : "Portal de Huinala 433, Portal de Huinala, 66646 Cd Apodaca, N.L.",
+        "coordinates" : "25.755059, -100.1591085"
+    },
+    {
+        "id" : 9,
+        "name" : "Bruno",
+        "owner" : "Alexa Montano",
+        "phone" : "8182359800",
+        "address" : "Crispín Treviño 323, Huinala, 66640 Cd Apodaca, N.L.",
+        "coordinates" : "25.7406514, -100.1663736"
+    },
+    {
+        "id" : 10,
+        "name" : "Rosalia",
+        "owner" : "Andres Huerta",
+        "phone" : "8189978070",
+        "address" : "Zacatecas 422, Colonial de Huinala, 66640 Cd Apodaca, N.L.",
+        "coordinates" : "25.7399498, -100.1675772"
+    },
+    {
+        "id" : 11,
+        "name" : "Oreo",
+        "owner" : "Milla Flores",
+        "phone" : "8110544741",
+        "address" : "Gardenia 101, Jardines del Virrey, 66645 Cd Apodaca, N.L.",
+        "coordinates" : "25.7489326, -100.1760024"
+    },
+
+    {
+        "id" : 12,
+        "name" : "Trufa",
+        "owner" : "Valeria Guzman",
+        "phone" : "8119877047",
+        "address" : "Olivo 410, Tréboles, 66646 Cd Apodaca, N.L.",
+        "coordinates" : "25.764183, -100.145285"
+    },
+
+    {
+        "id" : 13,
+        "name" : "Hulk",
+        "owner" : "Vanessa Limon",
+        "phone" : "81239987700",
+        "address" : "Río Tamuin 520, Pueblo Nuevo III, 66646 Cd Apodaca, N.L.",
+        "coordinates" : "25.761309, -100.155763"
+    },
+    {
+        "id" : 14,
+        "name" : "Pedro",
+        "owner" : "Juan Tamez",
+        "phone" : "8123997410",
+        "address" : "C. de los Grandes Lagos 123, Fresnos del Lago 3er Sector, 66633 Cd Apodaca, N.L.",
+        "coordinates" : "25.738203, -100.21867"
+    },
+    {
+        "id" : 15,
+        "name" : "Chuy",
+        "owner" : "Fernando Garza",
+        "phone" : "8122369231",
+        "address" : "San Andrés 168, Ex Hacienda San Francisco, 66632 Cd Apodaca, N.L.",
+        "coordinates" : "25.758455,  -100.216621"
+    },
+    {
+        "id" : 16,
+        "name" : "Poncho",
+        "owner" : "Hugo Delgado",
+        "phone" : "8100339876",
+        "address" : "Calle Danzu 44, Valle de Huinala II, 66634 Cd Apodaca, N.L.",
+        "coordinates" : "25.740543, -100.201157"
+    },
+    {
+        "id" : 17,
+        "name" : "Rigo",
+        "owner" : "Samy Flores",
+        "phone" : "8119866210",
+        "address" : "P.º de la Esperanza 92, Encinos Residencial, 66633 Cd Apodaca, N.L.",
+        "coordinates" : "25.736419, -100.180329"
+    },
+    {
+        "id" : 18,
+        "name" : "Flash",
+        "owner" : "Karla Murillo",
+        "phone" : "8180759766",
+        "address" : "Olmecas 213, 66646 Fraccionamiento Misión de San Javier, N.L.",
+        "coordinates" : "25.746072, -100.154579"
+    },
+
+    {
+        "id" : 19,
+        "name" : "Lala",
+        "owner" : "Mauricio Torres",
+        "phone" : "8189785250",
+        "address" : "Milán 832a, Paseo de las Flores, 66643 Cd Apodaca, N.L.",
+        "coordinates" : "25.756267, -100.133198"
+    },
+
+    {
+        "id" : 20,
+        "name" : "Koke",
+        "owner" : "Oziel Ramirez",
+        "phone" : "8116877450",
+        "address" : "C. Oceano Pacifico 226, San Andrés, 66640 Cd Apodaca, N.L.",
+        "coordinates" : "25.740906, -100.174758"
     }
+
 ]
