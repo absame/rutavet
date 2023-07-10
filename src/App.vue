@@ -1,18 +1,20 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import RouteGenerator from './components/RouteGenerator.vue'
+import Registro from './components/Registro.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="deydol logo" class="logo" src="img/deydol.jpg" width="125" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="RutaVET" />
 
       <nav>
         <RouterLink to="/">Inicio</RouterLink>
-        <RouterLink to="/routegenerator">Generador de rutas</RouterLink>
+        <RouterLink to="/routegenerator">Generador de rutas</RouterLink><br>
+        <RouterLink to="/registro">Registro de Clientes</RouterLink>
       </nav>
     </div>
   </header>
@@ -21,6 +23,7 @@ import RouteGenerator from './components/RouteGenerator.vue'
 </template>
 
 <style scoped>
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -29,6 +32,8 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  height: 200px;
+  width: 200px;
 }
 
 nav {
