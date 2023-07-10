@@ -20,6 +20,7 @@ function changeElement(e){
 }
 
 </script>
+
 <template>
     <div>        
         <h3 class="text-center mb-5">Route Generator</h3>
