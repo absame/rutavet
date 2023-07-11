@@ -23,18 +23,15 @@ function changeElement(e){
 <template>
     <div>        
         <h3 class="text-center mb-5">Route Generator</h3>
-    <div class="row">
-            <div class="col-md-5">
-                <ListBox title="Clientes disponibles" :list="clients" @change="changeElement"></ListBox>
-            </div>
-            <div class="col-md-2">
-                <button @click="addElement"> + </button>
-                <button> - </button>
-            </div>
-            <div class="col-md-5">
-                <ListBox title="Clientes en Ruta" :list="clientsOnRoute"></ListBox>
-
-            </div>
-    </div>
+    <thead>
+        <th>ID</th>
+        <th>Mascota</th>
+        <th>Dueno</th>
+        <th>Telefono</th>
+        <th>Direccion</th>
+    </thead>
+    <tbody>
+        <tr></tr>
+    </tbody>
 </div>
 </template>
