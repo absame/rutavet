@@ -1,4 +1,3 @@
-
 <script setup> 
 import { ref, reactive } from 'vue'
 import ListBox from './ListBox.vue'; 
@@ -10,28 +9,28 @@ const props = defineProps({
     required: true
   }
 })
-
-function addElement(){ 
-    clientsOnRoute.push(props.clients[elementToSend])
-}
-
-function changeElement(e){
-    elementToSend = e.target.value - 1
-}
-
 </script>
+
 <template>
     <div>        
-        <h3 class="text-center mb-5">Route Generator</h3>
+        <h3 class="text-center mb-5">Registro de Clientes</h3>
+        <table class="table table-striped table-bordered">
     <thead>
         <th>ID</th>
         <th>Mascota</th>
-        <th>Dueno</th>
+        <th>Dueño</th>
         <th>Telefono</th>
         <th>Direccion</th>
     </thead>
     <tbody>
-        <tr></tr>
-    </tbody>
+                <tr v-for="item in list" :value="item.id">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.owner}}</td>
+                    <td>{{item.phone}}</td>
+                    <td>{{item.address}}</td>
+                </tr>
+            </tbody>
+        </table>
 </div>
 </template>

@@ -34,8 +34,10 @@ function changeElement(e){
             </div>
             <div class="col-md-5">
                 <ListBox title="Clientes en Ruta" :list="clientsOnRoute"></ListBox>
-
             </div>
+            
+            <br><br><button type="button" class="btn btn-primary btn-lg btn-block">Generar Ruta</button>
+            
     </div>
 </div>
 </template>
