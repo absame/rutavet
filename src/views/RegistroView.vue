@@ -6,6 +6,6 @@ import clients from '../json/clients.json'
 
 <template>
   <main>
-    <RouteGenerator :clients="clients" />
+    <Registro :clients="clients" />
   </main>
 </template>
