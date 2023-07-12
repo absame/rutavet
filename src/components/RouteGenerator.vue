@@ -45,12 +45,8 @@ function moveToLeft() {
 
             </div>
             <div class="col-md-5">
-<<<<<<< HEAD
                 <ListBox title="Clientes en Ruta" :list="ClientsOnRoute" v-model="selectedItems2"></ListBox>
 
-=======
-                <ListBox title="Clientes en Ruta" :list="clientsOnRoute"></ListBox>
->>>>>>> a00ca56ba026264d238871227343a18e16841e86
             </div>
             
             <br><br><button type="button" class="btn btn-primary btn-lg btn-block">Generar Ruta</button>
