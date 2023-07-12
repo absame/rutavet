@@ -1,7 +1,7 @@
 <script setup>
-import { ref } from 'vue'
-const item = ref('')
-defineProps({
+import { ref, watch } from 'vue'
+//let selectedItems = ref([])
+const props = defineProps({
   title: {
     type: String,
     required: true
@@ -10,18 +10,32 @@ defineProps({
   list: {
     type: Array,
     required: true
-  }
+  },
 })
+
+
+const selectedItems = ref([...props.list]);
+
+watch(selectedItems, (newVal) => {
+  emit('update:value', newVal);
+});
+
+watch(() => props.list, (newVal) => {
+  selectedItems.value = [...newVal];
+});
+
+const emit = defineEmits(['update:items', 'update:value'])
+// @change="emit('update:items', selectedItems)"
 </script>
 
 <template>
         <div class="row">
             <h5 class="mt-2 mb-2">{{ title }}</h5>
             <div class="col-md-12">
-                <select id="disponibles" class="form-select" multiple aria-label="multiple select example" v-model="item">
+                <select class="form-select" multiple aria-label="multiple select example" v-model="selectedItems">
                     <option v-for="item in list" :value="item.id">{{ item.name }}</option>
                 </select>
             </div>
-            <span>Seleccionado: {{ item }}</span>
+            <span>Seleccionado: {{ selectedItems }}</span>
         </div>
 </template>
